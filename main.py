@@ -1,7 +1,7 @@
 num = input('Enter a number (decimal or integer): ')
 
 # type your code here
-new_num = num.lstrip("0.").replace(".", "")
+new_num = num.lstrip("0.").strip(" ").replace(".", "")
 sf = len(new_num)
 
 # do not change any code beyond this point
